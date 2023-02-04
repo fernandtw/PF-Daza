@@ -3,7 +3,7 @@
 /*PIE DE PAGINA*/
 
 footer{
-    background-image: url(../ASSETS/fondo_index.jpg);
+    background-image: url(../assets/fondo_index.jpg);
     background-attachment: fixed;
     display: flex;
     background-repeat:no-repeat;
@@ -14,7 +14,7 @@ footer{
     padding: 15px;
     display: flex;
 
-    h4{
+    h2{
         color: $font-color;
         font-family: $font-family;
         font-size: 17px;
