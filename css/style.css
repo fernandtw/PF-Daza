@@ -5,6 +5,27 @@
   padding: 0;
   box-sizing: border-box; }
 
+.card .card-body {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.title_1, .title_producto {
+  color: #000000;
+  background-image: url(../assets/fondo_index.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 90px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 1.6; }
+
 /*HEADER*/
 .navbar {
   background-image: linear-gradient(#9772FB, #C0DEFF); }
@@ -142,18 +163,6 @@ footer {
   grid-area: area6; }
 
 /*TITULO QUIENES SOMOS*/
-.title_1 {
-  background-image: url(../assets/fondo_index.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #000000;
-  font-family: "Bebas Neue", cursive;
-  font-size: 90px;
-  text-align: center;
-  margin-bottom: 0;
-  line-height: 1.6; }
-
 /*PRODUCTOS CON BOOTSTRAP + NUESTROS PRODUCTOS EN CSS*/
 .container {
   max-width: 100%;
@@ -178,11 +187,7 @@ footer {
   .card img {
     height: 400px; }
   .card .card-body {
-    min-height: 170px;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
+    min-height: 170px; }
     .card .card-body .btn {
       height: 40px; }
   .card:hover {
@@ -195,21 +200,6 @@ footer {
 .title-mangas {
   color: #ffffff;
   background-color: #000000;
-  width: 100%;
-  height: 90px;
-  font-family: "Bebas Neue", cursive;
-  font-size: 60px;
-  text-align: center;
-  margin-bottom: 0;
-  line-height: 1.6; }
-
-.title_producto {
-  color: #000000;
-  background-image: url(../assets/fondo_index.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   width: 100%;
   height: 90px;
   font-family: "Bebas Neue", cursive;
@@ -619,7 +609,7 @@ footer {
       height: 100%; } }
 
 /*CONTACTO*/
-@media only screen and (min-width: 320px) and (max-width: 349px) {
+@media only screen and (min-width: 320px) and (max-width: 377px) {
   .contacto .titulo_contacto {
     font-size: 25px; }
   .contacto .contacto input {
@@ -636,11 +626,11 @@ footer {
   .contacto legend {
     font-size: 20px; } }
 
-@media only screen and (min-width: 350px) and (max-width: 522px) {
+@media only screen and (min-width: 378px) and (max-width: 600px) {
   .contacto {
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 50px;
     gap: 20px;
     /*BOTONES Y CAJAS DE TEXTO*/
     /*CONTACTO FUENTES*/ }
@@ -661,11 +651,18 @@ footer {
     .contacto label {
       font-size: 20px; } }
 
+@media only screen and (min-width: 1000px) {
+  .contacto {
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    gap: 20px; } }
+
 @media only screen and (min-width: 1400px) {
   .contacto {
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 100px;
     gap: 20px;
     /*BOTONES Y CAJAS DE TEXTO*/
     /*CONTACTO FUENTES*/ }
@@ -673,15 +670,19 @@ footer {
       font-size: 80px;
       text-align: center; }
     .contacto input {
-      font-size: 20px; }
+      font-size: 30px; }
     .contacto .botones input {
-      font-size: 25px; }
+      font-size: 30px;
+      padding: 10px;
+      gap: 10px; }
+    .contacto .input-group-text {
+      font-size: 35px; }
     .contacto textarea {
       font-size: 20px; }
     .contacto p {
       text-align: center;
       color: #ffffff; }
     .contacto legend {
-      font-size: 30px; }
+      font-size: 40px; }
     .contacto label {
-      font-size: 30px; } }
+      font-size: 40px; } }

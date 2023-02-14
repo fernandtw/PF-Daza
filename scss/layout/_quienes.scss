@@ -84,15 +84,5 @@
 
 .title_1{
 
-    background-image: url(../assets/fondo_index.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color:$font-color;
-    font-family: $font-family;
-    font-size: 90px;
-    text-align: center;
-    margin-bottom: 0;
-    line-height: 1.6;
-
+    @extend %titulos_diseno;
 }

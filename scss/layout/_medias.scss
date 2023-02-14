@@ -700,7 +700,7 @@
 /*CONTACTO*/
     
     
-@media only screen and (min-width: 320px) and (max-width: 349px) {
+@media only screen and (min-width: 320px) and (max-width: 377px) {
     
     .contacto {
 
@@ -741,13 +741,13 @@
 }
     
     
-@media only screen and (min-width: 350px) and (max-width: 522px) {
+@media only screen and (min-width: 378px) and (max-width: 600px) {
     
     
     .contacto {
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding: 50px;
         gap: 20px;
 
         .titulo_contacto{
@@ -787,12 +787,22 @@
     
 }
 
+@media only screen and (min-width:1000px){
+
+    .contacto {
+        width: 100%;
+        height: 100%;
+        padding: 100px;
+        gap: 20px;
+    }
+
+}
 @media only screen and (min-width:1400px){
 
     .contacto {
         width: 100%;
         height: 100%;
-        padding: 10px;
+        padding: 100px;
         gap: 20px;
 
         .titulo_contacto{
@@ -803,12 +813,17 @@
         /*BOTONES Y CAJAS DE TEXTO*/
         
         input {
-            font-size: 20px;
+            font-size: 30px;
         }
         .botones input {
-            font-size: 25px;
+            font-size: 30px;
+            padding: 10px;
+            gap: 10px;
         }
-        
+        .input-group-text{
+            font-size: 35px;
+        }
+
         textarea {
             font-size: 20px;
         }
@@ -820,11 +835,11 @@
         }
         
         legend{
-            font-size: 30px;
+            font-size: 40px;
         }
         
         label{
-            font-size: 30px;
+            font-size: 40px;
         }
     }
     
