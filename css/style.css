@@ -234,11 +234,11 @@ footer {
   .contacto input {
     background-color: #ffffff;
     border-radius: 2%;
-    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 15px; }
   .contacto textarea {
     border: #ffffff;
-    font-family: "Bebas Neue", cursive;
+    font-family: "Roboto", sans-serif;
     font-size: 15px; }
   .contacto .titulo_contacto {
     font-size: 50px;
@@ -609,15 +609,15 @@ footer {
       height: 100%; } }
 
 /*CONTACTO*/
-@media only screen and (min-width: 320px) and (max-width: 377px) {
+@media only screen and (min-width: 320px) and (max-width: 423px) {
   .contacto .titulo_contacto {
     font-size: 25px; }
-  .contacto .contacto input {
-    font-size: 12px; }
+  .contacto input {
+    font-size: 13px; }
   .contacto .botones input {
     font-size: 12px; }
-  .contacto .contacto textarea {
-    font-size: 12px; }
+  .contacto textarea {
+    font-size: 13px; }
   .contacto .contacto p {
     text-align: center;
     color: #ffffff; }
@@ -626,7 +626,7 @@ footer {
   .contacto legend {
     font-size: 20px; } }
 
-@media only screen and (min-width: 378px) and (max-width: 600px) {
+@media only screen and (min-width: 424px) and (max-width: 600px) {
   .contacto {
     width: 100%;
     height: 100%;
@@ -678,7 +678,7 @@ footer {
     .contacto .input-group-text {
       font-size: 35px; }
     .contacto textarea {
-      font-size: 20px; }
+      font-size: 30px; }
     .contacto p {
       text-align: center;
       color: #ffffff; }
@@ -686,3 +686,27 @@ footer {
       font-size: 40px; }
     .contacto label {
       font-size: 40px; } }
+
+@media only screen and (min-width: 1000px) {
+  footer {
+    width: 100%;
+    height: 100%; }
+    footer h2 {
+      font-size: 25px; }
+      footer h2 span {
+        color: #3F0071;
+        font-family: "Bebas Neue", cursive;
+        font-size: 25px; }
+    footer li {
+      font-family: "Bebas Neue", cursive;
+      font-size: 25px;
+      color: #6D67E4;
+      text-align: initial;
+      padding-right: 40px;
+      margin: 10px;
+      text-decoration: none; }
+      footer li a {
+        color: #000000;
+        font-family: "Bebas Neue", cursive;
+        font-size: 22px;
+        text-decoration: none; } }

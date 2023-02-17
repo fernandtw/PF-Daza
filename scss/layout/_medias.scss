@@ -700,7 +700,7 @@
 /*CONTACTO*/
     
     
-@media only screen and (min-width: 320px) and (max-width: 377px) {
+@media only screen and (min-width: 320px) and (max-width: 423px) {
     
     .contacto {
 
@@ -708,8 +708,8 @@
             font-size: 25px;
         }
         
-        .contacto input {
-            font-size: 12px;
+        input {
+            font-size: 13px;
         }
         
         
@@ -717,8 +717,8 @@
             font-size: 12px;
         }
         
-        .contacto textarea {
-            font-size: 12px;
+        textarea {
+            font-size: 13px;
         }
         
         .contacto p {
@@ -741,7 +741,7 @@
 }
     
     
-@media only screen and (min-width: 378px) and (max-width: 600px) {
+@media only screen and (min-width: 424px) and (max-width: 600px) {
     
     
     .contacto {
@@ -825,7 +825,7 @@
         }
 
         textarea {
-            font-size: 20px;
+            font-size: 30px;
         }
         
         /*CONTACTO FUENTES*/
@@ -843,4 +843,47 @@
         }
     }
     
+}
+
+//Pie de pagina//
+
+@media only screen and (min-width:1000px){
+    footer{
+        width: 100%;
+        height: 100%;
+    
+        h2{
+            font-size: 25px;
+    
+            span{
+                color: #3F0071;
+                font-family: $font-family;
+                font-size: 25px;
+            }
+        }
+    
+        li{
+    
+            font-family: $font-family;
+            font-size: 25px;
+            color:#6D67E4;
+            text-align:initial;
+            padding-right: 40px;
+            margin: 10px ;
+            text-decoration: none;
+    
+            a{
+                color: $font-color;
+                font-family: $font-family;
+                font-size: 22px;
+                text-decoration: none;
+            }
+        
+        }
+    
+    
+    }
+    
+    
+
 }

@@ -32,7 +32,7 @@
 
     .card-body{
         min-height: 170px;
-        @extend %tamano;
+        @extend %body-card;
 
         .btn{
             height: 40px;
